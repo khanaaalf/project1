@@ -1,14 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+import Header from './Header';
+import Home from './Home';
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      magician at work
-      </header>
-    </div>
-  );
+  return (<>
+    <Header/>
+    <Home/>
+    
+</>)
 }
 
 export default App;
